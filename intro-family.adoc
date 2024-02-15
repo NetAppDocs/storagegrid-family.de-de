@@ -1,0 +1,89 @@
+---
+permalink: intro-family.html 
+keywords: storagegrid 
+summary: NetApp StorageGRID ist eine Suite für softwaredefinierten Objekt-Storage, die eine Vielzahl von Anwendungsfällen in Public-, Private- und Hybrid-Multi-Cloud-Umgebungen unterstützt. StorageGRID bietet nicht nur nativen Support für die Amazon S3-API, sondern auch branchenführende Innovationen wie automatisiertes Lifecycle Management. Damit können Sie unstrukturierte Daten kostengünstig über längere Zeiträume hinweg speichern, sichern, schützen und aufbewahren. 
+---
+= Weitere Informationen zu StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp StorageGRID ist eine Suite für softwaredefinierten Objekt-Storage, die eine Vielzahl von Anwendungsfällen in Public-, Private- und Hybrid-Multi-Cloud-Umgebungen unterstützt. StorageGRID bietet nicht nur nativen Support für die Amazon S3-API, sondern auch branchenführende Innovationen wie automatisiertes Lifecycle Management. Damit können Sie unstrukturierte Daten kostengünstig über längere Zeiträume hinweg speichern, sichern, schützen und aufbewahren.
+
+StorageGRID bietet sicheren, langlebigen Storage für unstrukturierte Daten jeder Größenordnung. Die integrierten, metadatengestützten Lifecycle Management-Richtlinien optimieren den Speicherort Ihrer Daten während ihrer gesamten Lebensdauer. Inhalte werden zur richtigen Zeit am richtigen Ort und auf der richtigen Storage-Tier platziert, um Kosten zu senken.
+
+StorageGRID besteht aus geografisch verteilten, redundanten und heterogenen Nodes, die sich in vorhandene Client-Applikationen und Next-Generation-Applikationen integrieren lassen.
+
+
+
+== Vorteile von StorageGRID
+
+Das StorageGRID System bietet unter anderem folgende Vorteile:
+
+* Extrem skalierbar und leicht zu verwendende Daten-Repositorys mit geografisch verteilten Standorten für unstrukturierte Daten
+* Unterstützung des Amazon Web Services Simple Storage Service (S3)-Protokolls
+* Hybrid Cloud-fähig: Richtlinienbasiertes Information Lifecycle Management (ILM) speichert Objekte in Public Clouds, einschließlich Amazon Web Services (AWS) und Microsoft Azure. StorageGRID Plattform-Services ermöglichen die Content-Replizierung, Ereignisbenachrichtigung und Metadatensuche von Objekten, die in Public Clouds gespeichert sind.
+* Flexible Datensicherung für Langlebigkeit und Verfügbarkeit Die Daten lassen sich durch Replizierung und ein mehrstufiges Erasure Coding zur Fehlerkorrektur sichern. Überprüfung von Daten im Ruhezustand und auf der Übertragungsstrecke sorgt für Integrität für langfristige Aufbewahrung.
+* Dynamisches Lifecycle Management für Daten zum Management der Storage-Kosten Sie können ILM-Regeln erstellen, die den Daten-Lebenszyklus auf Objektebene managen und Datenlokalität, Aufbewahrungszeitraum, Performance, Kosten und Aufbewahrungszeit anpassen.
+* Hochverfügbarkeit des Daten-Storage und einiger Managementfunktionen, mit integriertem Lastausgleich zur Optimierung der Datenlast über StorageGRID-Ressourcen hinweg.
+* Unterstützung mehrerer Storage-Mandantenkonten, um die auf dem System gespeicherten Objekte durch unterschiedliche Einheiten zu trennen
+* Zahlreiche Tools für das Monitoring des Systemzustands des StorageGRID Systems, einschließlich eines umfassenden Alarmsystems, einer grafischen Konsole und detaillierten Status für alle Knoten und Standorte
+* Support für Software- oder hardwarebasierte Implementierung Sie können StorageGRID auf einer der folgenden Methoden implementieren:
++
+** Virtual Machines in VMware ausgeführt.
+** Container-Engines auf Linux Hosts
+** Speziell entwickelte StorageGRID Appliances
++
+*** Storage Appliances bieten Objekt-Storage.
+*** Services Appliances stellen Services für die Grid-Administration und den Lastausgleich bereit.
+
+
+
+
+* Erfüllen der relevanten Speicheranforderungen dieser Vorschriften:
++
+** Securities and Exchange Commission (SEC) in 17 CFR § 240.17a-4(f), die Börsenmitglieder, Broker oder Händler regelt.
+** Financial Industry Regulatory Authority (FINRA) Rule 4511(c), die die Format- und Medienanforderungen der SEC Rule 17a-4(f) vorgibt.
+** Commodity Futures Trading Commission (CFTC) in der Verordnung 17 CFR § 1.31(c)-(d), die den Handel mit Commodity Futures regelt.
+
+
+* Unterbrechungsfreie Upgrades und Wartungsvorgänge Zugriff auf Inhalte bleibt während Upgrades, Erweiterungen, Stilllegen und Wartungsarbeiten erhalten.
+* Verbundenes Identitätsmanagement. Integration in Active Directory, OpenLDAP oder Oracle Directory Service zur Benutzerauthentifizierung. Unterstützt Single Sign-On (SSO) unter Verwendung des Security Assertion Markup Language 2.0 (SAML 2.0)-Standards zum Austausch von Authentifizierungs- und Autorisierungsdaten zwischen StorageGRID und Active Directory Federation Services (AD FS).
+
+
+
+
+== StorageGRID Software
+
+* https://docs.netapp.com/us-en/storagegrid-118/["StorageGRID 11.8-Dokumentation"^]
+* https://docs.netapp.com/us-en/storagegrid-117/["StorageGRID 11.7-Dokumentation"^]
+* https://docs.netapp.com/us-en/storagegrid-116/["StorageGRID 11.6-Dokumentation"^]
+* https://docs.netapp.com/us-en/storagegrid-115/["StorageGRID 11.5-Dokumentation"^]
+* https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61023["StorageGRID 11.4-Dokumentation"^]
+
+
+
+
+== StorageGRID Appliances
+
+* https://docs.netapp.com/us-en/storagegrid-appliances/["StorageGRID Appliances"^]
+
+
+
+
+== StorageGRID in Ihrer Umgebung aktivieren
+
+Gehen Sie zu https://docs.netapp.com/us-en/storagegrid-enable/index.html["StorageGRID in Ihrer Umgebung aktivieren"^] Um zu erfahren, wie Sie Applikationen in Ihrer StorageGRID Umgebung testen und einsetzen.
+
+Die Dokumentationswebsite *storagegrid-enable* enthält Beispiele und Kochbücher, die die Produktdokumentation auf dieser Website erweitern und einige nächste Schritte zur Bewertung und Integration mit StorageGRID beschreiben.
+
+Einige der Informationen enthalten:
+
+* Liste validierter Lösungen von Drittanbietern für frühere und aktuelle StorageGRID Versionen.
+* Produktfunktionshandbücher. Diese Leitfäden bieten beispielsweise alle Informationen, die Sie zum Erstellen von Cloud-Speicherpools benötigen.
+* Tool- und Anwendungsleitfäden.
+* API-Beispiele zur Verwendung von StorageGRID Funktionen wie S3-Verschlüsselung und S3-Objektsperre.
+
